@@ -1,2 +1,2 @@
-# vbwb
+# VBWB
 Vibe Based Weather Buddy 
