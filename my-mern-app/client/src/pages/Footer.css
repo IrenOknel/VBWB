@@ -1,0 +1,11 @@
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #fffefe;
+  font-size: 12px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}

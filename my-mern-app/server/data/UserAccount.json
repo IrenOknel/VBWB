@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Irene",
+    "email": "irenpavlenko22@gmail.com",
+    "password": "enter",
+    "_id": 1
+  },
+  {
+    "name": "Sam",
+    "email": "samtest@gmail.com",
+    "password": "entertest",
+    "_id": 2
+  },
+  {
+    "name": "John",
+    "email": "john.doe89@mail.com",
+    "password": "pass123",
+    "_id": 3
+  },
+  {
+    "name": "Emily",
+    "email": "emily.jackson12@outlook.com",
+    "password": "mypassword",
+    "_id": 4
+  },
+  {
+    "name": "Michael",
+    "email": "michael_brown@gmail.com",
+    "password": "brownie123",
+    "_id": 5
+  },
+  {
+    "name": "Sophia",
+    "email": "sophia.lane@yahoo.com",
+    "password": "sophia2021",
+    "_id": 6
+  },
+  {
+    "name": "David",
+    "email": "david.king77@protonmail.com",
+    "password": "kingdavid",
+    "_id": 7
+  },
+  {
+    "name": "Laura",
+    "email": "laura.smith23@gmail.com",
+    "password": "sunshine456",
+    "_id": 8
+  },
+  {
+    "name": "Chris",
+    "email": "chris.lee@icloud.com",
+    "password": "chrislee99",
+    "_id": 9
+  },
+  {
+    "name": "Anna",
+    "email": "anna.wilson@zoho.com",
+    "password": "anna!secure",
+    "_id": 10
+  },
+  {
+    "name": "James",
+    "email": "james.hall88@hotmail.com",
+    "password": "hallpass",
+    "_id": 11
+  },
+  {
+    "name": "Olivia",
+    "email": "olivia.green29@gmail.com",
+    "password": "oliviagreen29",
+    "_id": 12
+  }
+]
+

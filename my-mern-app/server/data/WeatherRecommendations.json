@@ -1,0 +1,102 @@
+[
+  {
+    "weather_condition": "Clear",
+    "activities": [
+      "Go for a scenic hike at a nearby nature trail.",
+      "Have a BBQ picnic in the park with friends.",
+      "Plan a beach day and soak up the sun.",
+      "Ride your bike through your favorite neighborhood.",
+      "Take a yoga mat outside for a peaceful session under the sky."
+    ]
+  },
+  {
+    "weather_condition": "Clouds",
+    "activities": [
+      "Cozy up with a good book and a cup of tea.",
+      "Visit a local coffee shop for a peaceful afternoon.",
+      "Take a walk in a quiet park to enjoy the serene atmosphere.",
+      "Spend the day journaling and reflecting on your week.",
+      "Catch up on your favorite podcasts while lounging on the couch."
+    ]
+  },
+  {
+    "weather_condition": "Partly Cloudy",
+    "activities": [
+      "Play a game of frisbee or catch in your backyard.",
+      "Set up a hammock and relax outdoors with light music.",
+      "Have a relaxed picnic with snacks and finger foods.",
+      "Explore a local farmer’s market or craft fair.",
+      "Take a casual stroll through your favorite park or botanical garden."
+    ]
+  },
+  {
+    "weather_condition": "Overcast",
+    "activities": [
+      "Bake homemade cookies or try a new dessert recipe.",
+      "Watch your favorite movies with a warm blanket and hot cocoa.",
+      "Create art: try sketching, painting, or crafting.",
+      "Visit an art museum or gallery for some indoor inspiration.",
+      "Take a gentle walk through your neighborhood or a local park."
+    ]
+  },
+  {
+    "weather_condition": "Rain",
+    "activities": [
+      "Have a spa day at home: face masks, candles, and relaxing music.",
+      "Cook a comforting homemade soup or stew.",
+      "Curl up with a book or binge-watch a series you’ve been wanting to watch.",
+      "Invite friends over for a cozy board game night.",
+      "Do a creative indoor workout like yoga or pilates."
+    ]
+  },
+  {
+    "weather_condition": "Drizzle",
+    "activities": [
+      "Listen to calming music or nature sounds while relaxing indoors.",
+      "Write in your journal or start a new creative writing project.",
+      "Take a warm bath with essential oils and soft lighting.",
+      "Try making homemade tea blends or a new coffee brew.",
+      "Watch a soft, feel-good movie while enjoying the sound of the rain."
+    ]
+  },
+  {
+    "weather_condition": "Thunderstorm",
+    "activities": [
+      "Have a movie marathon with the sound of rain as background ambiance.",
+      "Try cooking a new, exciting recipe like a gourmet meal.",
+      "Work on a creative project like painting, knitting, or building a puzzle.",
+      "Take a few moments to meditate or do some deep breathing.",
+      "Organize or redecorate your living space for a refreshing change."
+    ]
+  },
+  {
+    "weather_condition": "Snow",
+    "activities": [
+      "Build a snowman or have a snowball fight with family or friends.",
+      "Go ice skating at an outdoor rink or a frozen pond.",
+      "Warm up with hot chocolate and freshly baked cookies.",
+      "Take a scenic walk through the snow-covered streets or park.",
+      "Go sledding or skiing for a fun, active day out."
+    ]
+  },
+  {
+    "weather_condition": "Mist",
+    "activities": [
+      "Take a mindful walk through a misty park or garden.",
+      "Sit by the window with a warm drink, watching the mist roll by.",
+      "Write poetry or do some reflective journaling.",
+      "Visit a nearby museum or quiet café for a peaceful retreat.",
+      "Try a relaxing at-home yoga session with calming music."
+    ]
+  },
+  {
+    "weather_condition": "Fog",
+    "activities": [
+      "Go for a morning walk and enjoy the mysterious ambiance.",
+      "Stay inside with a hot drink and watch the fog roll by.",
+      "Take some time to meditate or practice mindfulness.",
+      "Sketch or photograph the dreamy landscapes created by the fog.",
+      "Watch a classic, atmospheric movie like a noir or mystery film."
+    ]
+  }
+]
