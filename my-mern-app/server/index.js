@@ -1,6 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
+const path = require("path");
 
 const { createUser } = require("./handlers/createUser");
 const { loginUser } = require("./handlers/loginUser");
@@ -30,7 +31,7 @@ app.use(
 app.use(express.json());
 app.use(morgan("tiny"));
 
-app.use(express.static("./server/assets"));
+app.use(express.static(path.join(__dirname, "assets")));
 
 // API Endpoints
 app.post("/api/signup", createUser);
@@ -39,6 +40,10 @@ app.put("/update/:id", updateUser);
 app.delete("/delete", deleteUser);
 app.get("/api/recommendation/:weather_condition", getWeatherRecommendation);
 
-app.use("/", express.static(__dirname + "/"));
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("*", (req, res) => {
+ res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+});
 
 app.listen(PORT, () => console.info(`Server running on port ${PORT}`));
