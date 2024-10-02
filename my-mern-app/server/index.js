@@ -12,7 +12,7 @@ const {
 } = require("./handlers/getWeatherRecommendation");
 const cors = require("cors");
 
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 const app = express();
 app.use(cors());
