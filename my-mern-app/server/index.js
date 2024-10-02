@@ -14,10 +14,10 @@ const PORT = process.env.PORT || 5001;
 
 const app = express();
 
-// Enable CORS for frontend to connect to the backend
+// Enabled CORS for frontend to connect to the backend
 app.use(
   cors({
-    origin: "*", // You can restrict this to your frontend URL for more security
+    origin: "*", 
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: [
       "Content-Type",
@@ -30,7 +30,6 @@ app.use(
 app.use(express.json());
 app.use(morgan("tiny"));
 
-// Serve static files from the assets directory
 app.use(express.static("./server/assets"));
 
 // API Endpoints
@@ -40,8 +39,6 @@ app.put("/update/:id", updateUser);
 app.delete("/delete", deleteUser);
 app.get("/api/recommendation/:weather_condition", getWeatherRecommendation);
 
-// Catch-all route for serving the backend root URL
 app.use("/", express.static(__dirname + "/"));
 
-// Start the server
 app.listen(PORT, () => console.info(`Server running on port ${PORT}`));

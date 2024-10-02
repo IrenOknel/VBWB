@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import API_URL from "../utils/apiConfig";
 import "./pageUser.css";
 import { saveUserToLocalStorage } from "../utils/localStorageHelper";
 
@@ -27,7 +28,7 @@ const PageUser = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/login", {
+      const response = await fetch(`${API_URL}/api/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -64,7 +65,7 @@ const PageUser = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/signup", {
+      const response = await fetch(`${API_URL}/api/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

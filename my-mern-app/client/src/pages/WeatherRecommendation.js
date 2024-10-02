@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import API_URL from "../utils/apiConfig";
 import "./weatherRecommendation.css"; 
 import iconLoad from "../assets/iconload.png";
 import heartIcon from "../assets/iconheart.png"; 
@@ -15,7 +16,9 @@ const WeatherRecommendation = ({ weather }) => {
       const fetchRecommendations = async () => {
         const condition = weather.weather[0].main;
         try {
-          const response = await axios.get(`/api/recommendation/${condition}`);
+          const response = await axios.get(
+            `${API_URL}/api/recommendation/${condition}`
+          );
           setActivities(response.data.recommendation.activities || []);
         } catch (error) {
           console.error("Error fetching weather recommendations:", error);

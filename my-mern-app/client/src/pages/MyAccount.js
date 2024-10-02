@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
+import API_URL from "../utils/apiConfig";
 import "./MyAccount.css";
 import heartIcon from "../assets/iconheart.png";
 import updateIcon from "../assets/iconupdate.png";
@@ -50,7 +51,7 @@ const MyAccount = () => {
     const newPassword = e.target.elements["new-password"].value;
 
     try {
-      const response = await fetch(`http://localhost:5001/update/${userId}`, {
+      const response = await fetch(`${API_URL}/update/${userId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json"
@@ -80,7 +81,7 @@ const MyAccount = () => {
     const password = e.target.elements["delete-password"].value;
 
     try {
-      const response = await fetch("http://localhost:5001/delete", {
+      const response = await fetch(`${API_URL}/delete`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json"
