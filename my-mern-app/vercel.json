@@ -1,6 +1,5 @@
 {
   "version": 2,
-
   "builds": [
     {
       "src": "server/index.js",
@@ -8,13 +7,9 @@
     },
     {
       "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "client/build"
-      }
+      "use": "@vercel/static-build"
     }
   ],
-
   "routes": [
     {
       "src": "/api/(.*)",
@@ -24,11 +19,5 @@
       "src": "/(.*)",
       "dest": "/client/build/index.html"
     }
-  ],
-
-  "static-build": {
-    "distDir": "client/build",
-    "buildCommand": "npm run build",
-    "devCommand": "npm start"
-  }
+  ]
 }
