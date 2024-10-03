@@ -1,5 +1,6 @@
 {
   "version": 2,
+
   "builds": [
     {
       "src": "server/index.js",
@@ -13,6 +14,7 @@
       }
     }
   ],
+
   "routes": [
     {
       "src": "/api/(.*)",
@@ -22,5 +24,11 @@
       "src": "/(.*)",
       "dest": "/client/build/index.html"
     }
-  ]
+  ],
+
+  "static-build": {
+    "distDir": "client/build",
+    "buildCommand": "npm run build",
+    "devCommand": "npm start"
+  }
 }
