@@ -10,6 +10,18 @@ Welcome to **"Meet Your Personal Vibe-Based Weather Buddy!"** — a unique weath
 - **Real-Time Weather Data**: Fetches up-to-date weather information for various cities using the OpenWeatherMap API.
 - **User Authentication**: Sign up, login, and log out.
 
+**Login/Sign in page**:
+  
+  ![Login Test](insomniass/introPage.png)
+
+**Landing page**:
+  
+  ![Register Test](insomniass/landingPage.png)
+
+**My Account page**:
+  
+  ![Update Test](insomniass/myAccount.png)
+
 ## Project Structure
 The project is built using the MERN stack: MongoDB, Express, React, Node.js
 
@@ -98,10 +110,7 @@ Here are the screenshots demonstrating various Insomnia test results:
 
 ## Deployment
 
-The app is deployed on **Vercel** and accessible via:
-
-- **Frontend**: [https://vbwb.vercel.app](https://vbwb.vercel.app)
-- **Backend API**: [https://vbwb.vercel.app/api](https://vbwb.vercel.app/api)
+The app is deployed on **Vercel** 
 
 ## Technology Stack
 

@@ -36,8 +36,8 @@ app.use(express.static(path.join(__dirname, "assets")));
 // API Endpoints
 app.post("/api/signup", createUser);
 app.post("/api/login", loginUser);
-app.put("/update/:id", updateUser);
-app.delete("/delete", deleteUser);
+app.put("/api/update/:id", updateUser);
+app.delete("/api/delete", deleteUser);
 app.get("/api/recommendation/:weather_condition", getWeatherRecommendation);
 
 app.use(express.static(path.join(__dirname, "../client/build")));
