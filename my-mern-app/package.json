@@ -9,7 +9,7 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-   "engines": {
+  "engines": {
     "node": "20.x"
   },
   "keywords": [],
@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "concurrently": "^7.0.0",
-    "nodemon": "^2.0.0"
+    "nodemon": "^2.0.22"
   }
 }
