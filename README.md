@@ -72,8 +72,8 @@ The following API endpoints have been tested using Insomnia:
 
 - **User Sign Up**: `POST /api/signup`
 - **User Login**: `POST /api/login`
-- **Update User**: `PUT /update/:id`
-- **Delete User**: `DELETE /delete`
+- **Update User**: `PUT /api/update/:id`
+- **Delete User**: `DELETE /api/delete`
 - **Get Weather Recommendation**: `GET /api/recommendation/:weather_condition`
 
 ## Screenshots of Tests
