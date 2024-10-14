@@ -110,7 +110,7 @@ Here are the screenshots demonstrating various Insomnia test results:
 
 ## Deployment
 
-The app is deployed on **Vercel** 
+The app will be deployed on **Vercel** 
 
 ## Technology Stack
 
@@ -121,7 +121,7 @@ The app is deployed on **Vercel**
 
 ## Future Enhancements
 
-- **Improve UI/UX**: Enhance the UI for a more dynamic user experience.
+- **Improve UI/UX**: Enhance the UI and responsiveness for a more dynamic user experience.
 - **Additional Weather Features**: Integrate weather recommendations tailored to specific cities.
 - **Social Sharing**: Allow users to share their favorite weather-based activities on social media.
 
